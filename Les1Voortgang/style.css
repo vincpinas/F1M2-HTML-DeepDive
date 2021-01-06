@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+:root {
+    color: #dadada;
+}
+
+body, html {
+    background-color: #111111
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    text-align: center;
+    justify-content: center;
+}
+
+.HERO h1 {
+    color: rgb(177, 110, 177);
+}
+
+.HERO p span {
+    font-style: oblique;
+    font-size: 20px;
+}
