@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.flex-container {
+    display: flex;
+    background-color: #111111;
+    height: 500px;
+    border: 2px solid antiquewhite;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-item {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: solid 2px black;
+    padding: 30px;
+}
